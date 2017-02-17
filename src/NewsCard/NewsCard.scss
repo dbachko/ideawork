@@ -1,0 +1,33 @@
+.news-card {
+  margin: 0 25px 50px;
+  text-align: left;
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 50px;
+
+  &-title {
+    font-size: 2.667em;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+
+  &-date {
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 0.688em;
+    color: #9f9f9f;
+  }
+
+  &-links {
+    font-family: "ACaslonPro-Regular";
+    a {
+      color: #131313;
+      &:hover {
+        color: #9f9f9f;
+      }
+    }
+  }
+
+  &-img img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,40 @@
+{
+	"slides": [{
+			"title": "Screening:<br> DVF Secret Agent Part 2",
+			"date": "October 21, 2017",
+			"desc": "Join us for a private screening of DVF Secret Agent Part 2<br> with our special guest, director Peter Lindberg.",
+			"img": "img/hero1.jpg"
+		}, {
+			"title": "Slide 2",
+			"date": "November 12, 2015",
+			"desc": "Another slide",
+			"img": "img/mountains.jpg"
+		}
+	],
+	"news": [{
+			"title": "Bureaux exquisite delightful carefully curated soft power.",
+			"timestamp": "1486684800",
+			"img": "img/news1.png"
+		}, {
+			"title": "St Moritz uniforms Beams.",
+			"timestamp": "1485475200",
+			"img": "img/news3.png"
+		}, {
+			"title": "Sharp bureaux sleepy K-pop carefully curated.",
+			"timestamp": "1485993600",
+			"img": "img/news2.png"
+		}, {
+			"title": "Esse airport veniam ryokan soft power.",
+			"timestamp": "1484956800",
+			"img": "img/news4.png"
+		}, {
+			"title": "K-pop extraordinary.",
+			"timestamp": "1484697600",
+			"img": "img/news5.png"
+		}, {
+			"title": "Artisanal iconic cutting-edge business class.",
+			"timestamp": "1484179200",
+			"img": "img/news6.png"
+		}
+	]
+}

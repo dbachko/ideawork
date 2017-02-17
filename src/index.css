@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "ACaslonPro";
+  src: url(./static/fonts/ACaslonPro-Regular.otf) format("truetype"); }
+
+@font-face {
+  font-family: "Springville";
+  src: url(./static/fonts/Springville-Regular3.otf) format("truetype"); }
+
+body {
+  font-family: Arial; }
+
+h1 {
+  font-family: "Springville"; }
+
+h3 {
+  font-family: "ACaslonPro"; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+a {
+  color: #6d6d6d;
+  text-transform: uppercase; }
+  a:hover {
+    color: #131313; }
+
+.social-link:before {
+  content: '-';
+  display: inline-block;
+  margin: 0 5px; }
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 320px; }
+  .news-card {
+    margin: 0 15px 50px; }
+    .news-card-title {
+      font-size: 1.667em; } }
+
+@media (min-width: 321px) and (max-width: 767px) {
+  .container {
+    max-width: 560px; }
+  .news-card {
+    margin: 0 15px 50px; }
+    .news-card-title {
+      font-size: 2em; } }
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .container {
+    width: 750px; }
+  .news-card {
+    margin: 0 20px 50px; }
+    .news-card-title {
+      font-size: 2.375em; } }
+
+@media (min-width: 1281px) and (max-width: 1440px) {
+  .container {
+    width: 970px; } }
+
+@media (min-width: 1441px) {
+  .container {
+    width: 1170px; } }

@@ -1,0 +1,64 @@
+.app {
+  text-align: center;
+  overflow: hidden; }
+  .app-logo {
+    height: 34px; }
+  .app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 80px;
+    padding: 20px 0; }
+  .app-intro {
+    font-size: large; }
+  .app-footer {
+    margin: 145px 0 45px 0;
+    font-size: 11px;
+    color: #6d6d6d; }
+
+.navbar-nav {
+  display: flex;
+  align-items: center; }
+  .navbar-nav li {
+    list-style: none;
+    margin-left: 25px; }
+    .navbar-nav li a {
+      text-decoration: none; }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.news-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 65px; }
+
+.hamburger {
+  width: 32px;
+  height: 26px;
+  position: relative;
+  cursor: pointer; }
+
+.hamburger span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #666;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0; }
+  .hamburger span:nth-child(1) {
+    top: 0; }
+  .hamburger span:nth-child(2) {
+    top: 12px; }
+  .hamburger span:nth-child(3) {
+    top: 24px; }

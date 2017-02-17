@@ -1,0 +1,22 @@
+.news-card {
+  margin: 0 25px 50px;
+  text-align: left;
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 50px; }
+  .news-card-title {
+    font-size: 2.667em;
+    font-weight: 300;
+    margin-top: 10px; }
+  .news-card-date {
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 0.688em;
+    color: #9f9f9f; }
+  .news-card-links {
+    font-family: "ACaslonPro-Regular"; }
+    .news-card-links a {
+      color: #131313; }
+      .news-card-links a:hover {
+        color: #9f9f9f; }
+  .news-card-img img {
+    width: 100%; }
